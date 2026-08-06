@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Atharva Bhargude — ML Researcher</title>
+<title>Atharva Bhargude | Student Researcher</title>
 <meta name="description" content="Atharva Bhargude — research on large language models, AI safety, and multimodal systems.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,26 +79,25 @@
   }
 
   .avatar{
-  width:112px;height:112px;border-radius:50%;
-  background:linear-gradient(155deg,var(--navy) 0%, #101d30 100%);
-  display:flex;align-items:center;justify-content:center;
-  color:#f2ede1;
-  font-family:var(--serif);
-  font-size:38px;font-weight:500;
-  letter-spacing:0.5px;
-  box-shadow:0 1px 0 rgba(0,0,0,0.04), 0 8px 24px -12px rgba(30,58,95,0.55);
-  position:relative;
-  z-index:1;
-  overflow: hidden; 
-}
+    width:112px;height:112px;border-radius:50%;
+    background:linear-gradient(155deg,var(--navy) 0%, #101d30 100%);
+    display:flex;align-items:center;justify-content:center;
+    color:#f2ede1;
+    font-family:var(--serif);
+    font-size:38px;font-weight:500;
+    letter-spacing:0.5px;
+    box-shadow:0 1px 0 rgba(0,0,0,0.04), 0 8px 24px -12px rgba(30,58,95,0.55);
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+  }
 
-
-.avatar img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;      
-  object-position: center; 
-}
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
 
   .side-name{
     font-family:var(--serif);
@@ -345,17 +344,24 @@
     padding-bottom:8px;
     border-bottom:1px solid var(--line);
   }
-  .award-img{
-  width:100%;
-  max-height:90px;
-  object-fit:contain;
-  border:1px solid var(--line-strong);
-  border-radius:6px;
-  margin-bottom:8px;
-  background:var(--surface);
+  .award{
+    display:flex;
+    gap:14px;
+    align-items:flex-start;
+    padding:10px 0;
+    border-bottom:1px solid var(--line);
   }
-  .award{padding:10px 0;border-bottom:1px solid var(--line);}
   .award:last-child{border-bottom:none;}
+  .award-img{
+    width:64px;
+    aspect-ratio:3/4;
+    object-fit:cover;
+    border:1px solid var(--line-strong);
+    border-radius:6px;
+    background:var(--surface);
+    flex-shrink:0;
+  }
+  .award-text{flex:1;min-width:0;}
   .award-title{font-weight:600;font-size:14.5px;margin:0 0 2px;}
   .award-sub{font-size:13px;color:var(--ink-soft);margin:0;}
 
@@ -433,7 +439,7 @@
       <img src="profilepic.png" alt="Atharva Bhargude">
     </div>
 
-    <div class="side-name">Atharva Bhargudeee4e</div>
+    <div class="side-name">Atharva Bhargude</div>
     <p class="side-title">ML &amp; NLP Researcher<br>High School Student</p>
 
     <div class="side-loc">
@@ -442,52 +448,31 @@
     </div>
 
     <div class="side-contact">
-      <!-- your 4 <a> icon links stay here, unchanged -->
+      <a href="mailto:atharvab167@gmail.com" title="Email" aria-label="Email">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="m3 6 9 7 9-7"/>
+        </svg>
+      </a>
+
+      <a href="https://scholar.google.com/citations?user=VwesIgUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.8 3.8v7.2h2.4v-5.3l4.8 3.8 12-9.5z"/>
+        </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/atharvabhargude/" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.74a1.6 1.6 0 1 0 0 3.2 1.6 1.6 0 0 0 0-3.2z"/>
+        </svg>
+      </a>
+
+      <a href="https://github.com/AtharvaB7" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+        </svg>
+      </a>
     </div>
-
-    <nav class="side-nav" id="side-nav">
-      <a href="#about"><span class="dot"></span>About</a>
-      <a href="#news"><span class="dot"></span>News</a>
-      <a href="#publications"><span class="dot"></span>Publications</a>
-      <a href="#research"><span class="dot"></span>Research</a>
-      <a href="#awards"><span class="dot"></span>Awards</a>
-      <a href="#experience"><span class="dot"></span>Experience</a>
-      <a href="#education"><span class="dot"></span>Education</a>
-    </nav>
-
-    <div class="side-foot">© 2026 Atharva Bhargude</div>
-  </aside>
-    <div class="side-loc">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
-      Warrington, Pennsylvania
-    </div>
-
-    <div class="side-contact">
-  <a href="mailto:atharvab167@gmail.com" title="Email" aria-label="Email">
-    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-      <rect x="2" y="4" width="20" height="16" rx="2"/>
-      <path d="m3 6 9 7 9-7"/>
-    </svg>
-  </a>
-
-  <a href="https://scholar.google.com/citations?user=VwesIgUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
-    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-      <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.8 3.8v7.2h2.4v-5.3l4.8 3.8 12-9.5z"/>
-    </svg>
-  </a>
-
-  <a href="https://www.linkedin.com/in/atharvabhargude/" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn">
-    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-      <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.74a1.6 1.6 0 1 0 0 3.2 1.6 1.6 0 0 0 0-3.2z"/>
-    </svg>
-  </a>
-
-  <a href="https://github.com/AtharvaB7" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
-    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-      <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
-    </svg>
-  </a>
-</div>
 
     <nav class="side-nav" id="side-nav">
       <a href="#about"><span class="dot"></span>About</a>
@@ -509,7 +494,6 @@
       <p>I'm an ML researcher interested in <em>large language models</em>, multimodal systems, AI safety, and optimization, exploring how AI systems can be made more reliable, interpretable, and capable of reasoning across complex domains.</p>
       <p>I've worked on topics ranging from multimodal phishing detection and adaptive prompting to emergent misalignment and retrieval-augmented generation. My research has been presented at ACL Vienna. I was a research intern at Algoverse AI, where I worked under an Apple ML Engineer and a Berkeley PhD.</p>
       <p class="muted">Outside of AI research, I run Track &amp; XC and play soccer. I'm always happy to chat about research, interesting ideas, or potential collaborations!</p>
-
     </section>
 
     <section id="news" class="reveal">
@@ -565,15 +549,13 @@
 
       <div class="pub">
         <div class="pub-fig">
-          <div class="pub-fig">
-              <img src="pub.png" alt="ALP phishing detection figure" style="width:100%;height:100%;object-fit:cover;">
-          </div>
+          <img src="pub.png" alt="ALP phishing detection figure" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div>
           <p class="pub-venue">ACL 2025 Workshop · NLP4PI &amp; WOAH · Vienna</p>
           <p class="pub-title">Adaptive Linguistic Prompting (ALP) Enhances Phishing Webpage Detection in Multimodal LLMs</p>
           <p class="pub-authors"><span class="me">Atharva Bhargude, Ishan Gonehal, Aaron Sandoval<sup>†</sup>, Kevin Zhu<sup>†</sup>, </span> et al.</p>
-          <p class="pub-proc">Proceedings of the ACL 2025 Workshop on NLP for Positive Impact &amp; Workshop on Online Harms & Abuses</p>
+          <p class="pub-proc">Proceedings of the ACL 2025 Workshop on NLP for Positive Impact &amp; Workshop on Online Harms &amp; Abuses</p>
           <p class="pub-abstract">Quantified VLM/MLLM ability to detect phishing attacks with 8-shot CoT prompting framework ALP, analyzing certain diction/syntax/semantics.</p>
           <div class="pub-links">
             <a href="https://aclanthology.org/2025.nlp4pi-1.7/">Paper</a>
@@ -599,30 +581,38 @@
         <div class="award-group">
           <h3>Research &amp; Science</h3>
           <div class="award">
-            <p class="award-title">1st Place — Bucks County Science Research Competition</p>
-            <p class="award-sub">Computer Science · LLM Optimization</p>
+            <div class="award-text">
+              <p class="award-title">1st Place — Bucks County Science Research Competition</p>
+              <p class="award-sub">Computer Science · LLM Optimization</p>
+            </div>
           </div>
           <div class="award">
             <img class="award-img" src="dvsf.png" alt="Delaware Valley Science Fair">
+            <div class="award-text">
+              <p class="award-title">Finalist — Delaware Valley Science Fair</p>
             </div>
-          <div class="award">
-            <p class="award-title">Finalist — Delaware Valley Science Fair</p>
           </div>
           <div class="award">
-            <p class="award-title">1st Place — Pennsylvania Junior Academy of Science</p>
-            <p class="award-sub">State-level · Computational Biology</p>
+            <div class="award-text">
+              <p class="award-title">1st Place — Pennsylvania Junior Academy of Science</p>
+              <p class="award-sub">State-level · Computational Biology</p>
+            </div>
           </div>
           <div class="award">
-            <p class="award-title">1st Place — PJAS Regional Competition</p>
-            <p class="award-sub">2× Regional 1st Place · 2× State Qualifier</p>
+            <div class="award-text">
+              <p class="award-title">1st Place — PJAS Regional Competition</p>
+              <p class="award-sub">2× Regional 1st Place · 2× State Qualifier</p>
+            </div>
           </div>
         </div>
 
         <div class="award-group">
           <h3>AI &amp; Research</h3>
           <div class="award">
-            <p class="award-title">ACL 2025 Workshop Presenter</p>
-            <p class="award-sub">NLP4PI &amp; WOAH</p>
+            <div class="award-text">
+              <p class="award-title">ACL 2025 Workshop Presenter</p>
+              <p class="award-sub">NLP4PI &amp; WOAH</p>
+            </div>
           </div>
         </div>
 
@@ -630,29 +620,37 @@
           <h3>FBLA</h3>
           <div class="award">
             <img class="award-img" src="fbla.png" alt="FBLA National Leadership Conference">
+            <div class="award-text">
+              <p class="award-title">4th Place — FBLA National Leadership Conference</p>
+              <p class="award-sub">Advertising · National Finalist</p>
+            </div>
           </div>
           <div class="award">
-            <p class="award-title">4th Place — FBLA National Leadership Conference</p>
-            <p class="award-sub">Advertising · National Finalist</p>
+            <div class="award-text">
+              <p class="award-title">2× State Finalist</p>
+              <p class="award-sub">Advertising &amp; Cybersecurity</p>
+            </div>
           </div>
           <div class="award">
-            <p class="award-title">2× State Finalist</p>
-            <p class="award-sub">Advertising &amp; Cybersecurity</p>
-          </div>
-          <div class="award">
-            <p class="award-title">2× Regional Finalist</p>
+            <div class="award-text">
+              <p class="award-title">2× Regional Finalist</p>
+            </div>
           </div>
         </div>
 
         <div class="award-group">
           <h3>Other</h3>
           <div class="award">
-            <p class="award-title">Replit AI Creator Fund — $500 Award</p>
-            <p class="award-sub">Python Stock Market Game</p>
+            <div class="award-text">
+              <p class="award-title">Replit AI Creator Fund — $500 Award</p>
+              <p class="award-sub">Python Stock Market Game</p>
+            </div>
           </div>
           <div class="award">
-            <p class="award-title">1st Place — NSF Regional Competition</p>
-            <p class="award-sub">Impromptu Public Speaking</p>
+            <div class="award-text">
+              <p class="award-title">1st Place — NSF Regional Competition</p>
+              <p class="award-sub">Impromptu Public Speaking</p>
+            </div>
           </div>
         </div>
       </div>

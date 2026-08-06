@@ -79,21 +79,23 @@
   }
 
   .avatar{
-    width:112px;height:112px;border-radius:50%;
-    background:linear-gradient(155deg,var(--navy) 0%, #101d30 100%);
-    display:flex;align-items:center;justify-content:center;
-    color:#f2ede1;
-    font-family:var(--serif);
-    font-size:38px;font-weight:500;
-    letter-spacing:0.5px;
-    box-shadow:0 1px 0 rgba(0,0,0,0.04), 0 8px 24px -12px rgba(30,58,95,0.55);
-    position:relative;
-    z-index:1;
-  }
-  avatar img {
+  width:112px;height:112px;border-radius:50%;
+  background:linear-gradient(155deg,var(--navy) 0%, #101d30 100%);
+  display:flex;align-items:center;justify-content:center;
+  color:#f2ede1;
+  font-family:var(--serif);
+  font-size:38px;font-weight:500;
+  letter-spacing:0.5px;
+  box-shadow:0 1px 0 rgba(0,0,0,0.04), 0 8px 24px -12px rgba(30,58,95,0.55);
+  position:relative;
+  z-index:1;
+  overflow: hidden; 
+}
+
+
+.avatar img {
   width: 100%;
   height: 100%;
-  border-radius: 50%;     
   object-fit: cover;      
   object-position: center; 
 }
@@ -422,11 +424,22 @@
     <img src="profilepic.png" alt="Atharva Bhargude">
   </div>
 
-  </aside>
+  <div class="side-name">Atharva Bhargude</div>
+  <p class="side-title">ML &amp; NLP Researcher<br>High School Student</p>
 
-    <div class="side-name">Atharva Bhargude</div>
-    <p class="side-title">ML &amp; NLP Researcher<br>High School Student</p>
+  <div class="side-loc">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+    Warrington, Pennsylvania
+  </div>
 
+  <div class="side-contact">
+    </div>
+
+  <nav class="side-nav" id="side-nav">
+    </nav>
+
+  <div class="side-foot">© 2026 Atharva Bhargude</div>
+</aside> ```
     <div class="side-loc">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
       Warrington, Pennsylvania

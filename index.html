@@ -79,18 +79,26 @@
   }
 
   .avatar{
-    width:112px;height:112px;border-radius:50%;
-    background:linear-gradient(155deg,var(--navy) 0%, #101d30 100%);
-    display:flex;align-items:center;justify-content:center;
-    color:#f2ede1;
-    font-family:var(--serif);
-    font-size:38px;font-weight:500;
-    letter-spacing:0.5px;
-    box-shadow:0 1px 0 rgba(0,0,0,0.04), 0 8px 24px -12px rgba(30,58,95,0.55);
-    position:relative;
-    z-index:1;
-    overflow:hidden;
-  }
+  width:112px;
+  height:112px;
+  min-width:112px;
+  min-height:112px;
+  flex-shrink:0;
+  border-radius:50%;
+  background:linear-gradient(155deg,var(--navy) 0%, #101d30 100%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#f2ede1;
+  font-family:var(--serif);
+  font-size:38px;
+  font-weight:500;
+  letter-spacing:0.5px;
+  box-shadow:0 1px 0 rgba(0,0,0,0.04), 0 8px 24px -12px rgba(30,58,95,0.55);
+  position:relative;
+  z-index:1;
+  overflow:hidden;
+}
 
   .avatar img {
     width: 100%;
